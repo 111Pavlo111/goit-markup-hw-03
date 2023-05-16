@@ -1,0 +1,210 @@
+/*загальні стилі*/
+:root{
+
+/*кольори шрифтів*/
+--title-txt-color: #2E2F42;
+--txt-color: #434455;    
+--white-txt-color: #fff;
+
+/*background-color*/
+--section1-color: #E5E5E5;
+--section3-color: #F4F4FD;
+
+/*logo*/
+--logo-color: #4d5ae5;
+}
+/*body style*/
+
+body{
+    font-family: "Roboto", sans-serif;
+    color: var(--txt-color);
+    background-color: var(--white-txt-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: normal;
+    letter-spacing: 0.02em;
+}
+
+
+/*zaburaem krapku*/
+.list{
+    list-style-type: none;
+}
+/*link style*/
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*logo style*/
+.logo{
+    color:var(--logo-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.span-logo{
+    color: var(--title-txt-color);
+    
+}
+/*nav style*/
+
+.header-nav
+{
+    color: var(--title-txt-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.header-nav:hover,
+.header-nav:focus{
+    color: #404bbf;
+}
+
+
+.adress-style{
+    font-style: normal;
+}
+
+.address{
+    color: var(--txt-color);
+}
+.address:hover,
+.address:focus{
+    color: #404bbf;
+}
+
+.hero-section{
+    background-color: var(--title-txt-color);
+}
+
+/*section background*/
+.section-one{
+    background-color: var(--section1-color);
+}
+
+/*title style*/
+.section-title{
+
+}
+
+.main-title{
+    color:var(--white-txt-color);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.btn{
+    font-family: inherit;
+    background-color: var(--logo-color);
+    color: var(--white-txt-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.btn:focus,
+.btn:hover{
+    background-color: #404BBF
+}
+
+.btn-portfolio{
+    color: var(--logo-color);
+    background-color: var(--section3-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus{
+    color: var(--white-txt-color);
+    background-color: #404BBF;
+}
+
+
+/*zaholovku h3 section 1*/
+.second-title{
+    color: var(--title-txt-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em
+}
+
+/* paragraf*/
+.about-title{
+    color: var(--txt-color);
+}
+
+/*section about*/
+.section-about{
+    letter-spacing: 0.02em
+}
+
+.about-section{
+    color: var(--title-txt-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+}
+
+/*section 3 background*/
+
+.section-bg
+{
+    background-color: var(--section3-color);
+}
+
+/* section 4*/
+.ul-bg{
+    background-color: #FFFFFF
+}
+
+
+
+/*footer*/
+.footer-bg{
+    background-color: var(--title-txt-color);
+}
+
+.footer-txt{
+    color: var(--section3-color);
+}
+
+.portfolio-header-bg{
+    background-color: var(--white-txt-color);
+}
+
+.title-portfolio{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-txt-color);
+
+}
+
+.title-port{
+    color: var(--txt-color);
+
+}
+
+.title-hidden{
+
+}
+
