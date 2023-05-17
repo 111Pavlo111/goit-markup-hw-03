@@ -1,21 +1,22 @@
 /*загальні стилі*/
-:root{
+:root {
 
-/*кольори шрифтів*/
---title-txt-color: #2E2F42;
---txt-color: #434455;    
---white-txt-color: #fff;
+    /*кольори шрифтів*/
+    --title-txt-color: #2E2F42;
+    --txt-color: #434455;
+    --white-txt-color: #fff;
 
-/*background-color*/
---section1-color: #E5E5E5;
---section3-color: #F4F4FD;
+    /*background-color*/
+    --section1-color: #E5E5E5;
+    --section3-color: #F4F4FD;
 
-/*logo*/
---logo-color: #4d5ae5;
+    /*logo*/
+    --logo-color: #4d5ae5;
 }
+
 /*body style*/
 
-body{
+body {
     font-family: "Roboto", sans-serif;
     color: var(--txt-color);
     background-color: var(--white-txt-color);
@@ -27,19 +28,91 @@ body{
 }
 
 
-/*zaburaem krapku*/
-.list{
-    list-style-type: none;
+/*reset start*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+ol {
+    margin: 0;
+    padding: 0;
+
 }
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.section {
+    padding: 120px 0;
+
+}
+
+.feature-list {
+    display: flex;
+
+
+}
+
+.feature-list .item {}
+
+.about-list {
+    display: flex;
+}
+
+.team-list {
+    display: flex;
+}
+
+.header-section {
+    padding: 24px 0;
+}
+
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: auto;
+    outline: 2px solid red;
+    outline-offset: -2px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.header-logo {
+    margin-right: 76px;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
 /*link style*/
-.link{
+.link {
     text-decoration: none;
     color: inherit;
 }
 
 /*logo style*/
-.logo{
-    color:var(--logo-color);
+.logo {
+    color: var(--logo-color);
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -48,14 +121,25 @@ body{
     letter-spacing: 0.03em;
 }
 
-.span-logo{
+.span-logo {
     color: var(--title-txt-color);
-    
+
 }
+
 /*nav style*/
 
-.header-nav
-{
+.header-nav-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+
+}
+
+.adress-nav {}
+
+.header-nav {
     color: var(--title-txt-color);
     font-weight: 500;
     font-size: 16px;
@@ -63,39 +147,38 @@ body{
 }
 
 .header-nav:hover,
-.header-nav:focus{
+.header-nav:focus {
     color: #404bbf;
 }
 
 
-.adress-style{
+.adress-style {
     font-style: normal;
 }
 
-.address{
+.address {
     color: var(--txt-color);
 }
+
 .address:hover,
-.address:focus{
+.address:focus {
     color: #404bbf;
 }
 
-.hero-section{
+.hero-section {
     background-color: var(--title-txt-color);
 }
 
 /*section background*/
-.section-one{
+.section-one {
     background-color: var(--section1-color);
 }
 
 /*title style*/
-.section-title{
+.section-title {}
 
-}
-
-.main-title{
-    color:var(--white-txt-color);
+.main-title {
+    color: var(--white-txt-color);
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -103,7 +186,7 @@ body{
     letter-spacing: 0.02em;
 }
 
-.btn{
+.btn {
     font-family: inherit;
     background-color: var(--logo-color);
     color: var(--white-txt-color);
@@ -113,12 +196,13 @@ body{
     letter-spacing: 0.04em;
     cursor: pointer;
 }
+
 .btn:focus,
-.btn:hover{
+.btn:hover {
     background-color: #404BBF
 }
 
-.btn-portfolio{
+.btn-portfolio {
     color: var(--logo-color);
     background-color: var(--section3-color);
     font-weight: 500;
@@ -127,15 +211,16 @@ body{
     letter-spacing: 0.04em;
     cursor: pointer;
 }
+
 .btn-portfolio:hover,
-.btn-portfolio:focus{
+.btn-portfolio:focus {
     color: var(--white-txt-color);
     background-color: #404BBF;
 }
 
 
 /*zaholovku h3 section 1*/
-.second-title{
+.second-title {
     color: var(--title-txt-color);
     font-weight: 500;
     font-size: 20px;
@@ -144,16 +229,16 @@ body{
 }
 
 /* paragraf*/
-.about-title{
+.about-title {
     color: var(--txt-color);
 }
 
 /*section about*/
-.section-about{
+.section-about {
     letter-spacing: 0.02em
 }
 
-.about-section{
+.about-section {
     color: var(--title-txt-color);
     font-weight: 700;
     font-size: 36px;
@@ -165,32 +250,31 @@ body{
 
 /*section 3 background*/
 
-.section-bg
-{
+.section-bg {
     background-color: var(--section3-color);
 }
 
 /* section 4*/
-.ul-bg{
+.ul-bg {
     background-color: #FFFFFF
 }
 
 
 
 /*footer*/
-.footer-bg{
+.footer-bg {
     background-color: var(--title-txt-color);
 }
 
-.footer-txt{
+.footer-txt {
     color: var(--section3-color);
 }
 
-.portfolio-header-bg{
+.portfolio-header-bg {
     background-color: var(--white-txt-color);
 }
 
-.title-portfolio{
+.title-portfolio {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -199,12 +283,9 @@ body{
 
 }
 
-.title-port{
+.title-port {
     color: var(--txt-color);
 
 }
 
-.title-hidden{
-
-}
-
+.title-hidden {}
