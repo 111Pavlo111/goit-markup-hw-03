@@ -61,18 +61,36 @@ button {
 
 .feature-list {
     display: flex;
+    gap: 24px;
+    padding: 0px;
+    
 
 
+
+}
+
+.about-section-item{
+    margin-top: 72px;
+}
+
+.img-team{
+    text-align: center;
+    margin: 32px 16px;
+    b
 }
 
 .feature-list .item {}
 
 .about-list {
     display: flex;
+    margin-top: 72px;
+    gap: 24px;
+    
 }
 
 .team-list {
     display: flex;
+    gap: 24px;
 }
 
 .header-section {
@@ -137,7 +155,10 @@ button {
 
 }
 
-.adress-nav {}
+.adress-list {
+    display: flex;
+    gap: 40px;
+}
 
 .header-nav {
     color: var(--title-txt-color);
@@ -154,6 +175,7 @@ button {
 
 .adress-style {
     font-style: normal;
+    margin-left: auto;
 }
 
 .address {
@@ -167,6 +189,7 @@ button {
 
 .hero-section {
     background-color: var(--title-txt-color);
+    padding: 188px;
 }
 
 /*section background*/
@@ -184,6 +207,10 @@ button {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .btn {
@@ -195,6 +222,16 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+    border-radius: 4px;
 }
 
 .btn:focus,
@@ -225,17 +262,22 @@ button {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    
+    
 }
 
 /* paragraf*/
 .about-title {
     color: var(--txt-color);
+    margin-top: 8px;
+    
 }
 
 /*section about*/
 .section-about {
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    padding-top: 120px;
 }
 
 .about-section {
@@ -246,6 +288,8 @@ button {
     text-align: center;
     text-transform: capitalize;
     letter-spacing: 0.02em;
+
+    
 }
 
 /*section 3 background*/
@@ -266,8 +310,15 @@ button {
     background-color: var(--title-txt-color);
 }
 
+.footer-logo{
+    padding-top: 100px;
+}
+
 .footer-txt {
     color: var(--section3-color);
+    width: 264px;
+    padding-top: 17.5px;
+    padding-bottom: 100px;
 }
 
 .portfolio-header-bg {
