@@ -70,34 +70,38 @@ button {
 
 }
 
-.feature-list-btn{
-    display: flex;
-    gap: 24px;
-    padding: 0px;
-    justify-content:center;
-}
 
-.card-flex{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
+
+
+
+
+
+.card-item{
+    width: 360px;
+
 }
 
 .about-section-item{
-    margin-top: 72px;
+    border-radius: 0px 0px 4px 4px;
+    
+}
+
+.about-div{
+    padding: 32px 16px
 }
 
 .img-team{
     text-align: center;
     margin: 32px 16px;
-    b
+    
 }
 
-.feature-list .item {}
+.feature-list .item {
+    width: calc((100% - 72px) / 4);
+}
 
 .about-list {
     display: flex;
-    margin-top: 72px;
     gap: 24px;
     
 }
@@ -109,6 +113,7 @@ button {
 
 .header-section {
     padding: 24px 0;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .container {
@@ -154,6 +159,11 @@ button {
     letter-spacing: 0.03em;
 }
 
+.footer-logo-link{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .span-logo {
     color: var(--title-txt-color);
 
@@ -174,6 +184,7 @@ button {
 .adress-list {
     display: flex;
     gap: 40px;
+    margin-right: 0;
 }
 
 .header-nav {
@@ -205,12 +216,13 @@ button {
 
 .hero-section {
     background-color: var(--title-txt-color);
-    padding: 188px;
+    padding: 188px 0;
 }
 
 /*section background*/
 .section-one {
     background-color: var(--section1-color);
+    padding: 96px 0 120px;
 }
 
 /*title style*/
@@ -223,7 +235,7 @@ button {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    width: 496px;
+    max-width: 496px;
     margin-left: auto;
     margin-right: auto;
 
@@ -239,7 +251,7 @@ button {
     letter-spacing: 0.04em;
     cursor: pointer;
 
-    display: flex;
+    display: block;
     flex-direction: row;
     align-items: flex-start;
     padding: 16px 32px;
@@ -248,12 +260,16 @@ button {
     margin-right: auto;
     margin-top: 48px;
     border-radius: 4px;
+    min-width: 169px;
+    height: 56px;
+    border: none
 }
 
 .btn:focus,
 .btn:hover {
     background-color: #404BBF
 }
+
 
 .btn-portfolio {
     color: var(--logo-color);
@@ -263,12 +279,24 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    
 }
 
 .btn-portfolio:hover,
 .btn-portfolio:focus {
     color: var(--white-txt-color);
     background-color: #404BBF;
+}
+
+.feature-list-btn{
+    display: flex;
+    gap: 24px;
+    padding: 0px;
+    justify-content: center;
+    margin-bottom: 72px;
+    padding: 12px 24px;
+    
+    
 }
 
 
@@ -279,6 +307,7 @@ button {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
     
     
 }
@@ -286,14 +315,14 @@ button {
 /* paragraf*/
 .about-title {
     color: var(--txt-color);
-    margin-top: 8px;
+   
     
 }
 
 /*section about*/
 .section-about {
     letter-spacing: 0.02em;
-    padding-top: 120px;
+    padding: 120px 0;
 }
 
 .about-section {
@@ -304,6 +333,7 @@ button {
     text-align: center;
     text-transform: capitalize;
     letter-spacing: 0.02em;
+    margin-bottom: 72px;
 
     
 }
@@ -324,17 +354,18 @@ button {
 /*footer*/
 .footer-bg {
     background-color: var(--title-txt-color);
+    padding: 100px 0
 }
 
 .footer-logo{
-    padding-top: 100px;
+    
 }
 
 .footer-txt {
     color: var(--section3-color);
     width: 264px;
-    padding-top: 17.5px;
-    padding-bottom: 100px;
+    
+    
 }
 
 .portfolio-header-bg {
@@ -354,5 +385,18 @@ button {
     color: var(--txt-color);
 
 }
+.card-flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc();
+    row-gap: 48px;
+}
 
+.card-item{
+    width: calc((100% - 48px) / 3);
+}
+
+.card-div{
+    padding: 32px 16px;
+}
 .title-hidden {}
