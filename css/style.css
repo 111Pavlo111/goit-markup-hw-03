@@ -66,11 +66,11 @@ button {
     width: 360px;
 }
 
-.card-link{
-    box-shadow: 
-    0px 3px 1px rgba(0, 0, 0, 0.1),
-     0px 2px 1px rgba(0, 0, 0, 0.08),
-      0px 2px 2px rgba(0, 0, 0, 0.12);
+.card-link {
+    box-shadow:
+        0px 3px 1px rgba(0, 0, 0, 0.1),
+        0px 2px 1px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .about-section-item {
@@ -115,7 +115,7 @@ button {
 .header-container {
     display: flex;
     align-items: center;
-    
+
 }
 
 .header-logo {
@@ -328,14 +328,19 @@ button {
 }
 
 .visually-hidden {
+
     position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
-    padding: 0;
-    overflow: hidden;
     border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
     clip: rect(0 0 0 0);
+    overflow: hidden;
+
 }
 
 /*section 3 background*/
