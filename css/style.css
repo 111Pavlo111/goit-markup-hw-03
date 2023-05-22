@@ -55,7 +55,7 @@ button {
 }
 
 .section {
-    padding: 120px 0;
+    padding-bottom: 120px ;
 
 }
 
@@ -221,7 +221,7 @@ button {
 
 /*section background*/
 .section-one {
-    background-color: var(--section1-color);
+    
     padding: 96px 0 120px;
 }
 
@@ -242,7 +242,8 @@ button {
 }
 
 .btn {
-    font-family: inherit;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
     background-color: var(--logo-color);
     color: var(--white-txt-color);
     font-weight: 500;
@@ -252,16 +253,8 @@ button {
     cursor: pointer;
 
     display: block;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 16px 32px;
-    gap: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 48px;
     border-radius: 4px;
-    min-width: 169px;
-    height: 56px;
+    
     border: none
 }
 
@@ -270,8 +263,21 @@ button {
     background-color: #404BBF
 }
 
+.hero-btn{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+    min-width: 169px;
+    height: 56px;
+}
+
 
 .btn-portfolio {
+    padding: 12px 24px;
+    border: 1px solid #E7E9FC;
+    
+
+
     color: var(--logo-color);
     background-color: var(--section3-color);
     font-weight: 500;
@@ -279,6 +285,9 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+
+
+
     
 }
 
@@ -286,6 +295,8 @@ button {
 .btn-portfolio:focus {
     color: var(--white-txt-color);
     background-color: #404BBF;
+    border: 1px solid transparent;
+    
 }
 
 .feature-list-btn{
@@ -294,7 +305,7 @@ button {
     padding: 0px;
     justify-content: center;
     margin-bottom: 72px;
-    padding: 12px 24px;
+    
     
     
 }
@@ -388,8 +399,8 @@ button {
 .card-flex{
     display: flex;
     flex-wrap: wrap;
-    flex-basis: calc();
-    row-gap: 48px;
+    gap: 48px 24px;
+    
 }
 
 .card-item{
