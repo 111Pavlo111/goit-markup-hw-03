@@ -115,6 +115,7 @@ button {
 .header-container {
     display: flex;
     align-items: center;
+    
 }
 
 .header-logo {
@@ -394,4 +395,5 @@ button {
 .card-div {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
